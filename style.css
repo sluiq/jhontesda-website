@@ -1,0 +1,83 @@
+
+.nav-wrapper {
+    background-color: rgb(2, 33, 2);
+    width: 100%;
+    
+    align-items:right;
+    margin: 0;
+}
+
+
+.nav-wrapper form .input-field {
+    border: solid;
+    border-color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: absolute;
+    display: inline-block;
+    
+    
+}
+
+.nav-wrapper ul li {
+    padding: 5px 15px;
+    position: relative;
+}
+
+.nav-wrapper ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: all .4s;
+}
+
+.nav-wrapper ul li a:hover {
+    color:rgb(18, 136, 233);
+}
+
+.dropdown-content {
+
+}
+
+
+.nav ul a:hover {
+    background-color: rgb(13, 33, 2);
+}
+
+
+
+.nav-wrapper ul li{
+    background-color: rgba(2, 33, 2, 0);
+}
+
+.nav-wrapper li a:hover {
+    background-color:rgb(2, 33, 2);
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box{
+    height:54px;
+    text-align:center;
+    
+}
+
+.box h5{
+    font-style:italic;
+    margin:0;
+    font-size:30px;
+}
+
+.box-1{
+    background:white;
+    width: 550px;
+}
+
+/*-------Btn----------*/
+

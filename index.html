@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="Utf-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="header.css">
+
+  <!---------Material Icons---------------------->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+       <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/86e3061993.js" crossorigin="anonymous"></script>
+    
+
+    <!-- Font Awesome cdnjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    
+    <!-- Custom Css-->
+ 
+<style>
+
+ body {
+    background-color: rgb(61, 57, 57);
+}
+
+</style>
+        <title>My-Project</title>
+</head>
+        <body>
+
+  <!----------------------Fixed Nav--------------------->
+
+          <div class="navbar-fixed">
+
+            <!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content" style="background-color: rgb(36, 35, 35); border: 0; margin: 0;color: rgb(5, 5, 11);">
+    <li><a href="">Social</a></li>
+    <li><a href="">Settings</a></li>
+    <li><a href="">Help</a></li>
+    <li><a href="">About</a></li>
+  </ul>
+
+  <nav>
+
+    <div class="nav-wrapper">
+      
+  <!-----------------------Logo---------------------->
+
+      <a href="" class="brand-logo" style="font-family: italic; padding-left: 30px;">TRAVELERS<img src="images/loading_24.gif" alt="" style="margin-left:10px;"></a>
+
+  <!-------------------Side Nav------------------------>
+
+      <a href="" data-target="mobile-demo" class="sidenav-trigger">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+
+
+  <!------------------------Items-------------------->
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+        <li><a href="">Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Sign Up</a></li>
+        <li><a href="">Login</a></li>
+        <li><a href="">FAQ</a></li>
+       
+      
+    <!---------------- Dropdown Trigger -------------------->
+
+        <li><a class="dropdown-trigger" href="" data-target="dropdown1">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+    </div>
+  
+  </nav>
+</div>
+
+
+ <!---------Sidenav Structure----------->
+
+ <ul class="sidenav" id="mobile-demo">
+  <li><a href="https://fontawesome.com/kits" target="_blank">Contact</a></li>
+  <li><a href="https://fontawesome.com/icons" target="_blank">News</a></li>
+  <li><a href="https://docs.fontawesome.com" target="_blank">Update</a></li>
+</ul>
+
+
+
+</div>
+<!------------------------Slider---------------------------->
+
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="images/ginkaku-ji.jpg"> 
+        
+<!-------------------- random image 1----------------------->
+      
+        <div class="caption center-align">
+          <h3 style="background-color: rgba(0, 0, 0, 0.347);padding:15px;">Enjoy the Beauty of Nature</h3>
+          <h5 style="color: rgb(219, 205, 205); padding: 10px;color:rgb(167, 192, 230);">GinKaKu-Ji Temple KYOTO.</h5>
+        </div>
+      
+      </li>
+      <li>
+        <img src="images/japanese.jpg"> 
+      
+<!------------------- random image 2------------------------->
+
+        <div class="caption left-align">
+          <h3 style="font-family:freestyle script;font-size: 100px;background-color:rgba(0, 0, 0, 0.295);color:rgb(244, 253, 255);">Travel Around the World.</h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/beach.jpg">
+
+  <!------------------- random image 3----------------------->
+
+        <div class="caption right-align">
+          <h3 style="font-family:freestyle script;font-size: 100px;background-color:rgba(0, 0, 0, 0.174);">Explore the Beauty of Nature.</h3>
+          <h5 class="light grey-text text-lighten-3">Beach Cliff Bay.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/bora-bora.jpg"> 
+
+  <!--------------------- random image 4--------------------->
+
+        <div class="caption">
+          <h3 style="font-family:freestyle script;font-size: 70px;">Relax Enjoy the Beauty of Blue Ocean.</h3>
+          <h5 class="light grey-text text-lighten-3">Bora-Bora,Island Beach.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+<!---------------------Search bar-------------------->
+
+  <div class="nav-wrapper">
+    <form action="https://www.booking.com/index.en-gb.html?aid=397594&label=gog235jc-1DCAEoggI46AdIM1gDaLQBiAEBmAEJuAEXyAEM2AED6AEBiAIBqAIDuALRp6CzBsACAdICJDhkNGViZGQ3LTA3ZTItNDliNy04YmM2LTE0NGFiOGNiN2QyMtgCBOACAQ&sid=4d5a08ca5b2ea9c9d91df27f0fe367fd&keep_landing=1&sb_price_type=total&">
+      <div class="input-field"style="border-radius:30px;">
+        <input id="search" type="search" required>
+        <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+        <i class="material-icons">close</i>
+      </div>
+    </form>
+  </div>
+  
+  <div class="divider"></div>
+<br><br><br>
+
+
+<!------------------------Header 1-------------------------->
+<br><br>
+<div class="container">
+
+<h4 style="font-family: Gabriola; font-size: 55px;margin-left:-220px;color: white;">Best Tourist Destination Around the World</h4>
+
+<div class="container" style="margin-left:-240px;">
+  <fieldset style="border:0;background:linear-gradient(270deg, #16260a, #03440d, #242a27);height: 60px;width:1659px;">
+    <h3 style="text-align: center;margin-top:-3px;color:white;font-family:perpetua;">Category</h3>
+  </fieldset>
+</div>
+
+
+  
+  </div>
+</div>
+
+<br>
+
+<div class="container">
+  <div class="box" style="background:linear-gradient(270deg, #16260a, #03440d, #242a27);width:1665px;height:660px;margin-left:-242px;">
+  
+<!---------------Card----------------------->
+
+<div class="row">
+  <div class="col s14 m4 s12">
+  
+    <div class="card" style="background-color: rgb(39, 38, 38);">
+      <div class="card-image">
+        <img src="images/baguio.jpg">
+        <span class="card-title"style="background:rgba(0, 0, 0, 0.488);padding:8px;">Burnham Park, Baguio</span>
+      </div>
+      <div class="divider"></div>
+         <div class="card-content">
+          <p style="font-size:20px;color:white;">Burnham Park is one of the most popular tourist destinations in Baguio City, Philippines. Named after the American architect and urban planner Daniel Burnham, who designed the park and the layout of Baguio, it is a central spot for both locals and tourists. Here are some key features and attractions within Burnham Park.
+          </p>
+         </div>      
+      <div class="card-action">
+        <a href="https://guidetothephilippines.ph/destinations-and-attractions/burnham-park" class="btn waves-effect waves-light" style="background-color:green;" onmouseover="this.style.backgroundColor='darkgreen';"onmouseout="this.style.backgroundColor='green';">Read more...</a>
+      </div>
+    </div></div>
+  <div class="col s14 m4 s12" style="">
+  
+    <div class="card" style="background-color: rgb(39, 38, 38);">
+      <div class="card-image">
+        <img src="images/batanes.jpg">
+        <span class="card-title"style="background:rgba(0, 0, 0, 0.488);padding:8px;">Chamantad-Tiñan, Viewpoint</span>
+      </div>
+      <div class="divider"></div>
+      <div class="card-content">
+        <p style="font-size:20px;color:white;">The Chamantad-Tiñan Viewpoint is one of the most picturesque and iconic spots on Batan Island, located in the province of Batanes in the northernmost part of the Philippines. Known for its breathtaking landscapes and panoramic views, the Chamantad-Tiñan Viewpoint offers a glimpse of the raw and untouched beauty of the Batanes Islands.
+        </p>
+       </div>
+      <div class="card-action">
+        <a href="https://guidetothephilippines.ph/destinations-and-attractions/chamantad-tinyan-viewpoint" class="btn waves-effect waves-light" style="background-color: green;" onmouseover="this.style.backgroundColor='darkgreen';"onmouseout="this.style.backgroundColor='green';">Read more...</a>
+      </div>
+    </div>
+</div>
+  <div class="col s14 m4 s12" style="">
+    <div class="card" style="background-color: rgb(39, 38, 38);">
+      <div class="card-image">
+        <img src="images/palawan.jpg">
+        <span class="card-title"style="background:rgba(0, 0, 0, 0.488);padding:8px;">Puerto Princesa, River National, Park</span>
+      </div>
+      <div class="divider"></div>
+      <div class="card-content">
+        <p style="font-size:20px;color:white;">The Puerto Princesa Subterranean River National Park, commonly known as the Puerto Princesa Underground River, is a UNESCO World Heritage Site and one of the New 7 Wonders of Nature. It is located on the western coast of Palawan Island in the Philippines, approximately 80 kilometers north of Puerto Princesa City.
+        </p>
+       </div>
+
+      <div class="card-action">
+        <a href="https://whc.unesco.org/en/list/652/" class="btn waves-effect waves-light" style="background-color: green;"" onmouseover="this.style.backgroundColor='darkgreen';"onmouseout="this.style.backgroundColor='green';">Read more...</a>
+      </div>
+    </div></div>
+</div>    
+</div>
+</div>
+
+<!---------------End of Box----------------->
+  </div>
+<!---------------End of Box----------------->
+</div>
+
+
+<br>
+<!-------------------2nd Section----------------------->
+
+
+
+<div class="container">
+  <div class="box" style="background:linear-gradient(270deg, #16260a, #03440d, #242a27);width:1665px;height:790px;margin-left:-242px;">
+  
+<!---------------Card----------------------->
+
+<div class="row">
+  <div class="col 14 m4 s12" style="">
+  
+    <div class="card" style="background-color: rgb(39, 38, 38);">
+      <div class="card-image">
+        <img src="images/canada.jpg">
+        <span class="card-title"style="background:rgba(0, 0, 0, 0.488);padding:8px;">Moraine Lake, Canada</span>
+      </div>
+      <div class="divider"></div>
+      <div class="card-action">
+        <a href="https://www.britannica.com/place/Canada"class="btn waves-effect waves-light" style="background-color: green;" onmouseover="this.style.backgroundColor='darkgreen';"onmouseout="this.style.backgroundColor='green';">Read more...</a>
+      </div>
+    </div></div>
+  <div class="col s14 m4 s12" style="">
+  
+    <div class="card" style="background-color: rgb(39, 38, 38);">
+      <div class="card-image">
+        <img src="images/thailand.jpg">
+        <span class="card-title"style="background:rgba(0, 0, 0, 0.488);padding:8px;">Railay Beach, Thailand</span>
+      </div>
+      <div class="divider"></div>
+      <div class="card-action">
+        <a href="https://www.britannica.com/place/Thailand" class="btn waves-effect waves-light" style="background-color: green;" onmouseover="this.style.backgroundColor='darkgreen';"onmouseout="this.style.backgroundColor='green';">Read more...</a>
+      </div>
+    </div>
+<div class="col s12" style="">
+    <div class="card" style="margin-left:-50px;border-radius:60px;background-color: rgb(39, 38, 38);width: 610px;height: 290px;">
+      <div class="card-image">
+        
+        <!-----------------------Carousel----------------------------->
+
+  <div class="carousel" style="z-index: 2;">
+    <a class="carousel-item" href="#one!"><img src="images/beach.jpg" class="materialboxed responsive-img" style="" data-caption="BEACH CLIFF BAY"></a>
+    <a class="carousel-item" href="#two!"><img src="images/bora-bora.jpg" class="materialboxed responsive-img" style="" data-caption="BORA-BORA, VOLCANIC ISLAND, BEACH"></a>
+    <a class="carousel-item" href="#three!"><img src="images/ginkaku-ji.jpg" class="materialboxed responsive-img" style="" data-caption="GINKAKU-JI TEMPLE, KYOTO, JAPAN"></a>
+    <a class="carousel-item" href="#four!"><img src="images/japanese.jpg" class="materialboxed responsive-img" style="" data-caption="JAPANESE MAPLE TREES, JAPAN"></a>
+    <a class="carousel-item" href="#five!"><img src="images/vietnam.jpg" class="materialboxed responsive-img" style="" data-caption="MU CANG CHAI, RICE TERRACES, VIETNAM"></a>
+    <a class="carousel-item" href="#SIX!"><img src="images/nami-island.jpg" class="materialboxed responsive-img" style="" data-caption="NAMI ISLAND, CHUNCHEON, SOUTH KOREA"></a>
+  </div>
+</div>
+
+      </div>
+      
+
+    </div></div>
+  <div class="col s14 m4 s12" style="">
+    <div class="card" style="background-color: rgb(39, 38, 38);">
+      <div class="card-image">
+        <img src="images/taiwan.jpg">
+        <span class="card-title"style="background:rgba(0, 0, 0, 0.488);padding:8px;">Taroko, National Park, Taiwan</span>
+      </div>
+      <div class="divider"></div>
+      <div class="card-action">
+        <a href="https://www.britannica.com/place/Taiwan" class="btn waves-effect waves-light" style="background-color: green;" onmouseover="this.style.backgroundColor='darkgreen';"onmouseout="this.style.backgroundColor='green';">Read more...</a>
+      </div>
+    </div></div>
+</div>    
+
+
+
+<!---------------End of Box----------------->
+  </div>
+<!---------------End of Box----------------->
+</div>
+
+<br>
+
+
+<!---------------Video Section---------------------->
+
+
+<div class="container z-depth-5" style="background-color: rgb(60, 60, 60);margin:auto;">
+  <nav class="nav-extended" style="background-color: black;">
+    <div class="nav-wrapper">
+      
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a href="#test1">Video 1</a></li>
+        <li class="tab"><a href="#test2">Video 2</a></li>
+        <li class="tab"><a href="#test3">Video 3</a></li>
+        <li class="tab"><a href="#test4">Video 4</a></li>
+      </ul>
+    </div>
+  </nav>
+   <!---------------Tabs Structure---------------------->
+  
+   <div class="container"style="margin:auto;">
+    <br><br><br>
+    <div class="row">
+        <div class="col s12" id="test1">
+            <div class="card">
+                <div class="video-container">
+                  <iframe width="928" height="522" src="https://www.youtube.com/embed/WeLKdbkRj74" title="Ancient Nara, Japan  [Amazing Places 4K]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+      
+        <div class="col s12" id="test2">
+            <div class="card">
+                <div class="video-container">
+                  <iframe width="928" height="522" src="https://www.youtube.com/embed/jEYR-kcPtpM" title="Palawan By Drone - El Nido &amp; Coron, Philippines - 4K Aerial Footage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col s12" id="test3">
+            <div class="card">
+                <div class="video-container">
+                  <iframe width="928" height="522" src="https://www.youtube.com/embed/O_9TgmIg1nA" title="Bora Bora Vacation Travel Guide | Expedia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col s12" id="test4">
+            <div class="card">
+                <div class="video-container">
+                  <iframe width="928" height="522" src="https://www.youtube.com/embed/XX_sPgvYSCI" title="Amazing Places to visit in Canada - Travel Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <!------------------------Fa Btn------------------------->
+
+  <div class="fixed-action-btn">
+    <a href="" class="btn-floating btn-large pulse" style="background-color: rgb(23, 145, 10);"><i class="small material-icons">menu</i></a> 
+    <i class="small material-icons" style="color: rgb(37, 4, 154);"></i>
+    <ul>
+     <li><a href="https://translate.google.com/" class="btn-floating" style="background-color: blue;"><i class="material-icons">g_translate</i></a></li>
+     <li><a href="https://www.youtube.com/watch?v=5WSPX3Wg8Kw/" class="btn-floating" style="background-color: red;"><i class="material-icons">live_tv</i></a></li>
+     <li><a href="https://google.com/" class="btn-floating" style="background-color: rgb(0, 0, 0);"><i class="material-icons"><i class="fa-brands fa-google"></i></i></a></li>
+     <li><a href="https://twitter.com/" class="btn-floating" style="background-color: rgb(20, 178, 246);"><i class="material-icons"><i class="fa fa-twitter"></i></i></a></li>
+    </ul>
+</div>
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="divider"></div>
+
+<div class="container">
+   <h4 style="font-family: italic; padding-left: 30px;color: rgb(236, 255, 238);">Travelers</h4>
+   <br><br><br>
+   <h6 class="center">All Rights Reserved © 2024</h6>
+</div>
+
+
+<br><br><br>
+
+
+ </div>
+</div>
+
+
+    <!------------------------ Jquery CDN -------------------------------->
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+<!-------------------------Jquery script-------------------------------------->
+
+<script>
+  $(document).ready(function() {
+    $('.tabs').tabs();
+    $('.sidenav').sidenav({
+      edge: 'right',
+      inDuration: 600,
+      outDuration: 600
+    });
+
+    $('.dropdown-trigger').dropdown();
+    
+    $('.fixed-action-btn').floatingActionButton({
+      direction: 'top',
+      hoverEnabled: true
+    });
+    $('.slider').slider({
+        indicators: false,
+        height: 300,
+        interval: 6000
+      });
+    $('.carousel').carousel({
+      indicators: false
+    });
+    $('.materialboxed').materialbox({
+      inDuration: 800,
+      outDuration: 800
+    })
+  });
+</script>
+
+
+
+
+
+        </body>
+
+        
+    
+</html>
